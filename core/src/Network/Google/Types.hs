@@ -36,6 +36,8 @@ import qualified Data.ByteString.Lazy         as LBS
 import qualified Data.CaseInsensitive         as CI
 import           Data.Coerce
 import           Data.Conduit
+import           Data.Conduit.Internal        (ResumableSource (..),
+                                               closeResumableSource)
 import qualified Data.Conduit.List            as CL
 import           Data.Data
 import           Data.DList                   (DList)
